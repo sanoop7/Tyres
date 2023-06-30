@@ -1,0 +1,38 @@
+.section__container {
+  background-color: #ecdc0a;
+  min-height: 420px;
+  text-align: center;
+}
+.section__tittle {
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 2rem 0;
+}
+.section__content {
+  width: calc(100% - 8rem);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 4rem;
+  margin: 4rem;
+}
+.card__tittle {
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+.card__tittle_no {
+  font-size: 4rem;
+  font-weight: 100;
+}
+.section__card_logo {
+  width: 60%;
+  height: 30%;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+    .section__content  {
+        grid-template-columns: 1fr;
+    }
+}
